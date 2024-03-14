@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    
+}p{
+    color: white;
+    text-align: center;
+   
+}
+a{
+    border: 1px solid green;
+    padding: 8px;
+    border-radius: 2vh;
+    color: white;
+    text-decoration: none;
+
+}
+div{
+    margin-top: 30px;
+}

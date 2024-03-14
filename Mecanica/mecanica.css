@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 5vh;
+    padding: 8px;
+
+
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.9px solid rgb(19, 0, 128);
+
+}
