@@ -27,7 +27,7 @@ h1,
 h2 {
    color: white;
    text-align: center
-   font-family: 'Raleway', sans-serif;
+ 
 }
 
 
@@ -54,7 +54,7 @@ footer {
    
 }
 .borda:hover{
-   background-image: linear-gradient(to right, rgba(0, 128, 0, 0.885), rgba(0, 128, 0, 0.879));
+   background-image: linear-gradient(to right, rgba(192, 214, 192, 0.885), rgba(48, 81, 43, 0.879));
 }
 p{
    padding-bottom: 7.9px;
