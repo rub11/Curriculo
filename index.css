@@ -1,65 +1,25 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8ccfa2;
+  
+    background-image: linear-gradient(to right, rgb(103, 200, 150), rgb(137, 216, 197));
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+.container{
+text-align: center;
 
-.element {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-    background-color: #8ccfa2e2;
-    color: #fff;
-    text-align: center;
-    line-height: 200px; /* Centraliza verticalmente */
+margin-top: 279px;
 }
-.escolha{
-    position: absolute;
-    top: 57%;
-    left: 29%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-    background-color: #8ccfa2e2;
-    color: #fff;
-    text-align: center;
-    line-height: 200px;
-    font-size: 1.5em;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-.curriculo{
-   font-size: 1.5em;
-   position: absolute;
-   top: 32.3%;
-   left:60%;
-   
+    .portifolio{
+        padding-right: 20px;
+        font-size: 1.2em;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
 
-}
-main{
-    width: 350px;
-    max-width: 350px;
-    min-width: 100px;
-}
-.rodape{
-    position: absolute;
-    top: 96%;
-    font-size: 1.2em;
-
-
-}
+    }
+    .curriculo{
+        padding-right: 20px;
+        font-size: 1.2em;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
