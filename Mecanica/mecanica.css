@@ -25,3 +25,6 @@ p {
    border-radius: 5vh;
 
 }
+a:hover{
+    font-size: 1.2em;
+}

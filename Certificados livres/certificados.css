@@ -40,7 +40,9 @@ footer {
    padding-top: 300px;
 
 }
-
+.insta{
+   padding-top: 22px;
+}
 .voltar {
    font-size: 3em;
 
@@ -54,7 +56,7 @@ footer {
    
 }
 .borda:hover{
-   background-image: linear-gradient(to right, rgba(192, 214, 192, 0.885), rgba(48, 81, 43, 0.879));
+   background-image: linear-gradient(to right, rgba(166, 214, 166, 0.885), rgba(48, 81, 43, 0.879));
 }
 p{
    padding-bottom: 7.9px;

@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+   
     color: green;
 }
 
@@ -52,4 +52,9 @@ footer {
 .voltar {
     font-size: 2em;
     text-align: center;
+}
+mark{
+    background-color: rebeccapurple;
+    border-radius: 5vh;
+    padding: 6px;
 }
