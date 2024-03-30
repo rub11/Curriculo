@@ -31,3 +31,20 @@ h1{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+body {
+    width: 300px;
+    /* Largura do elemento */
+    height: 600px;
+    /* Altura do elemento */
+    background-color: rgb(0, 0, 0);
+    /* Cor RGB do fundo */
+    box-shadow: 5px 5px 10px #ffffff33;
+    /* Sombra com deslocamento X, deslocamento Y, desfoque e cor RGBA */
+    margin: 50px auto;
+    /* Centralizar o elemento na página */
+    padding: 20px;
+    /* Espaçamento interno do conteúdo */
+    color: white;
+    /* Cor do texto para melhor legibilidade */
+
+}
