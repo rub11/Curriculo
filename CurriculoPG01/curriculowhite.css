@@ -1,0 +1,149 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.projetos {
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5vh;
+    padding: 5.9px;
+}
+
+.trabalhos {
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5vh;
+    padding: 4.9px;
+}
+
+.certificados {
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5vh;
+    padding: 4.9px;
+}
+
+.contate-me {
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5vh;
+    padding:5.9px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border: 5px solid rgb(19, 138, 19);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h3:hover {
+    color: rgb(19, 138, 19);
+}
+
+a:hover {
+    color: rgb(19, 138, 19);
+}
+
+main {
+    width: 700px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desenvolvedor {
+    text-align: center;
+    margin: auto;
+
+
+}
+
+
+
+.Cruzeiro-do-sul {
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5vh;
+    padding: 4.9px;
+}
+
+
+
+.footer {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 20%;
+
+
+
+}
+
+.contato {
+    font-family: 'Love Ya Like A Sister', cursive;
+
+}
+.insta{
+    color: red;
+}
+.digital{
+    border: 1px solid green;
+    padding: 8px;
+    border-radius: 5vh;
+    
+}
+.botao{
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 10px;
+    right: 122px;
+    padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius:5vh;
+    
+}

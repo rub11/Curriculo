@@ -136,3 +136,14 @@ main {
     border-radius: 5vh;
     
 }
+.botao{
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 10px;
+    right: 122px;
+    padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius:5vh;
+    
+}

@@ -4,26 +4,63 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pagina Principal</title>
-
-
 <link rel="stylesheet" href="index.css">
+<style>
+    
+    body {
+        transition: background-color 0.5s ease;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /* Light Theme */
+    body.light-mode {
+        background-color: #7385d2;
+        color: #000000;
+    }
+
+    /* Dark Theme */
+    body.dark-mode {
+        background-color: #6ead98;
+        color: #000000;
+    }
+    
+</style>
+
+<h1 class="bem-vindo">
+    Bem vindo
+</h1>
+<p>
+    <a class="portifolio" href="PortifolioPrincipal/Portifolio-principal.html">Portifolio</a>
+    
+    <a class="curriculo" href="CurriculoPG01/curriculowhite.html">curriculo</a>
+</p>
 </head>
-<body>
+<body class="light-mode">
+
 <div class="container">
-<div class="element">
-<main>
-    <h1>
-        Bem vindo!
-    
-    </h1>
-    
-     <a class="portifolio" href="PortifolioPrincipal/Portifolio-principal.html"> Portifolio</a>
-    
-    
-        <a class="curriculo" href="CurriculoPG01/Curriculoprincipal01.html">curriculo</a>
-    
-    </div>
-    </div>
-</main>
+    <button class="botao" onclick="toggleTheme()">☾☀</button>
+</div>
+
+<script>
+    function toggleTheme() {
+        const body = document.body;
+        body.classList.toggle('light-mode');
+        body.classList.toggle('dark-mode');
+
+    }
+
+</script>
+
+
 </body>
 </html>

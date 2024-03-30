@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+a{
+    color: rgb(0, 0, 0);
+    border: 2px solid green;
+    padding: 6px;
+    border-radius: 2vh;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: rgb(52, 109, 52);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+body {
+    width: 700px;
+    /* Largura do elemento */
+    height: 600px;
+    /* Altura do elemento */
+    background-color: rgb(255, 255, 255);
+    /* Cor RGB do fundo */
+    box-shadow: 5px 5px 10px #00000033;
+    /* Sombra com deslocamento X, deslocamento Y, desfoque e cor RGBA */
+    margin: 50px auto;
+    /* Centralizar o elemento na página */
+    padding: 20px;
+    /* Espaçamento interno do conteúdo */
+    color: white;
+    /* Cor do texto para melhor legibilidade */
+
+}
