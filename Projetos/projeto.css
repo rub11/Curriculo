@@ -3,7 +3,7 @@ body {
     /* Largura do elemento */
     height: 600px;
     /* Altura do elemento */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.977);
     /* Cor RGB do fundo */
     box-shadow: 5px 5px 10px #e4e0e033;
     /* Sombra com deslocamento X, deslocamento Y, desfoque e cor RGBA */
