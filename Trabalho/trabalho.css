@@ -27,4 +27,17 @@ body {
     /* Cor do texto para melhor legibilidade */
 
 }
+@media screen and (max-width: 760px){
+    body{
+        width: 350px;
+        height: 600px;
+        
+
+    }
+    h1{
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+}
 

@@ -58,3 +58,11 @@ mark{
     border-radius: 5vh;
     padding: 6px;
 }
+
+@media screen and (max-width: 760px)
+{
+    body{
+        width: 350px;
+        height: 500px;
+    }
+}
